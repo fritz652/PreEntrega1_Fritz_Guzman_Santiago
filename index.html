@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <h3>Bienvenido</h3>
+    <p>A continuación te muestro las marcas de autos disponibles:</p>
+    <form id='myForm'></form>
+
+
+
+    <h3>Hola, te muestro a continuación las marcas de autos disponibles</h3>
+
+<p id="demo"></p>
+
+<h3> ¿Cual de estas marcas te agrada más?
+
+<script>
+const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
